@@ -3,6 +3,7 @@
 namespace App\Models\Concerns;
 
 use Spatie\Activitylog\Models\Activity;
+use Illuminate\Database\Eloquent\Model;
 
 trait HasActivityLog
 {

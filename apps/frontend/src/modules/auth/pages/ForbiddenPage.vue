@@ -3,8 +3,11 @@ import { computed, onMounted, ref } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 
 import { fetchAuthenticatedUser, peekAuthenticatedUser } from '@/modules/auth/services/authService'
-import { normalizePath } from '@/router/routePermissions'
-import { resolveHomeByPermission, resolveSafeBackPath } from '@/router/resolveHomeByPermission'
+import {
+  normalizePath,
+  resolveHomeByPermission,
+  resolveSafeBackPath,
+} from '@/router/resolveHomeByPermission'
 
 const route = useRoute()
 

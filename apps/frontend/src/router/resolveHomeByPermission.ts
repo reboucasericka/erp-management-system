@@ -13,7 +13,7 @@ type HomeRouteCandidate = {
   permission: string
 }
 
-function normalizePath(fullPath: string): string {
+export function normalizePath(fullPath: string): string {
   const path = fullPath.split('?')[0] ?? ''
   if (path === '' || path === '/') {
     return '/'

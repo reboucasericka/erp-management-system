@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Middleware\Authenticate;
 use App\Http\Middleware\SpaRedirectIfAuthenticated;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Application;
@@ -18,6 +19,7 @@ return Application::configure(basePath: dirname(__DIR__))
     ->withMiddleware(function (Middleware $middleware): void {
         $middleware->statefulApi();
         $middleware->alias([
+            'auth' => Authenticate::class,
             'guest' => SpaRedirectIfAuthenticated::class,
             'permission' => PermissionMiddleware::class,
         ]);
