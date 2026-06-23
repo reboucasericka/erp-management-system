@@ -9,7 +9,62 @@
 ![License](https://img.shields.io/badge/License-Academic-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-Sistema completo de gestão empresarial (ERP) desenvolvido durante estágio profissional na **Inovcorp**, com arquitetura moderna baseada em **Laravel 12 + Vue 3**, cobrindo múltiplos módulos de negócio (entidades, propostas, encomendas, ordens de trabalho, faturação, arquivo digital, calendário e controlo de acessos).
+Sistema de Gestão Empresarial (ERP) desenvolvido durante estágio profissional na Inovcorp para apoiar a gestão operacional de empresas através da centralização de processos comerciais, financeiros e documentais.
+
+A aplicação foi criada para centralizar e organizar processos empresariais num único sistema, permitindo gerir clientes, fornecedores, propostas comerciais, encomendas, ordens de trabalho, faturação, documentos e calendário operacional.
+
+## Objetivo do Projeto
+
+Desenvolver uma solução integrada capaz de centralizar a informação empresarial e apoiar a gestão operacional da organização, reduzindo tarefas manuais, aumentando a rastreabilidade dos processos e melhorando o controlo sobre atividades comerciais, técnicas e financeiras.
+
+## Principais Funcionalidades
+
+* Gestão de clientes e fornecedores
+* Gestão de contactos e dados comerciais
+* Propostas comerciais com geração automática de PDF
+* Encomendas de clientes e fornecedores
+* Ordens de trabalho
+* Gestão financeira e faturação
+* Arquivo digital de documentos
+* Calendário operacional e acompanhamento de atividades
+* Gestão de utilizadores, papéis e permissões
+* API REST para integração de dados
+
+---
+
+## Screenshots
+
+### Tela inicial
+
+<img src="apps/frontend/public/sistema_fundo.png" width="700">
+
+### Dashboard / Visão geral
+
+<img src="docs/dashboard.png" width="700">
+
+### Gestão de Entidades
+
+<img src="docs/entidades.png" width="700">
+
+### Propostas Comerciais
+
+<img src="docs/propostas.png" width="700">
+
+### Financeiro / Faturação
+
+<img src="docs/financeiro.png" width="700">
+
+### Arquivo Digital
+
+<img src="docs/arquivo-digital.png" width="700">
+
+### Calendário Operacional
+
+<img src="docs/calendario.png" width="700">
+
+### Gestão de Utilizadores e Permissões
+
+<img src="docs/permissoes.png" width="700">
 
 ---
 
