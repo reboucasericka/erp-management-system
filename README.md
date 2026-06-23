@@ -19,16 +19,16 @@ Desenvolver uma solução integrada capaz de centralizar a informação empresar
 
 ## Principais Funcionalidades
 
-* Gestão de clientes e fornecedores
-* Gestão de contactos e dados comerciais
-* Propostas comerciais com geração automática de PDF
-* Encomendas de clientes e fornecedores
-* Ordens de trabalho
-* Gestão financeira e faturação
-* Arquivo digital de documentos
-* Calendário operacional e acompanhamento de atividades
-* Gestão de utilizadores, papéis e permissões
-* API REST para integração de dados
+- Gestão de clientes e fornecedores
+- Gestão de contactos e dados comerciais
+- Propostas comerciais com geração automática de PDF
+- Encomendas de clientes e fornecedores
+- Ordens de trabalho
+- Gestão financeira e faturação
+- Arquivo digital de documentos
+- Calendário operacional e acompanhamento de atividades
+- Gestão de utilizadores, papéis e permissões
+- API REST para integração de dados
 
 ---
 
@@ -36,7 +36,7 @@ Desenvolver uma solução integrada capaz de centralizar a informação empresar
 
 ### Tela inicial
 
-<img src="apps/frontend/public/sistema_fundo.png" width="700">
+<img src="docs/sistema-fundo.png" width="700">
 
 ### Dashboard / Visão geral
 
@@ -129,34 +129,34 @@ Principais objetivos:
 
 ## Stack Tecnológica
 
-| Camada          | Tecnologias                                                        |
-| --------------- | ------------------------------------------------------------------ |
-| Backend         | Laravel 12, PHP 8.2+, MySQL/MariaDB                                |
-| Autenticação    | Sanctum, Fortify                                                   |
-| Autorização     | Spatie Permission, Policies                                        |
-| Frontend        | Vue 3, TypeScript, Vite, Pinia, Vue Router                         |
-| UI              | TailwindCSS, shadcn-vue, Lucide Icons                              |
-| Validação       | Zod, Vee-Validate (frontend) · Form Requests (backend)             |
-| Testes          | PHPUnit, Laravel Test Suite                                        |
-| DevOps          | Git, Conventional Commits                                          |
+| Camada       | Tecnologias                                            |
+| ------------ | ------------------------------------------------------ |
+| Backend      | Laravel 12, PHP 8.2+, MySQL/MariaDB                    |
+| Autenticação | Sanctum, Fortify                                       |
+| Autorização  | Spatie Permission, Policies                            |
+| Frontend     | Vue 3, TypeScript, Vite, Pinia, Vue Router             |
+| UI           | TailwindCSS, shadcn-vue, Lucide Icons                  |
+| Validação    | Zod, Vee-Validate (frontend) · Form Requests (backend) |
+| Testes       | PHPUnit, Laravel Test Suite                            |
+| DevOps       | Git, Conventional Commits                              |
 
 ---
 
 ## Módulos
 
-| Módulo                     | Descrição                                                                 |
-| -------------------------- | ------------------------------------------------------------------------- |
-| Entidades                  | Gestão de clientes e fornecedores (dados fiscais, moradas, contactos).    |
-| Contactos                  | Pessoas associadas a entidades, com funções e meios de contacto.          |
-| Propostas                  | Criação, versionamento e exportação de propostas comerciais em PDF.       |
-| Encomendas (Clientes)      | Conversão de propostas, gestão de linhas e estados.                       |
-| Encomendas (Fornecedores)  | Gestão de compras e integração com faturas de fornecedor.                 |
-| Ordens de Trabalho         | Planeamento e execução técnica de serviços.                               |
-| Financeiro                 | Faturas emitidas/recebidas, contas correntes, ligação a encomendas.       |
-| Arquivo Digital            | Repositório de ficheiros com metadados, permissões e pré-visualização.    |
-| Calendário                 | Ações e eventos (reuniões, tarefas, follow-ups) com tipos configuráveis.  |
-| Utilizadores e Permissões  | Gestão de utilizadores, papéis (roles) e permissões granulares.           |
-| Definições                 | Países, IVA, artigos, funções de contacto, tipos de calendário, logs.     |
+| Módulo                    | Descrição                                                                |
+| ------------------------- | ------------------------------------------------------------------------ |
+| Entidades                 | Gestão de clientes e fornecedores (dados fiscais, moradas, contactos).   |
+| Contactos                 | Pessoas associadas a entidades, com funções e meios de contacto.         |
+| Propostas                 | Criação, versionamento e exportação de propostas comerciais em PDF.      |
+| Encomendas (Clientes)     | Conversão de propostas, gestão de linhas e estados.                      |
+| Encomendas (Fornecedores) | Gestão de compras e integração com faturas de fornecedor.                |
+| Ordens de Trabalho        | Planeamento e execução técnica de serviços.                              |
+| Financeiro                | Faturas emitidas/recebidas, contas correntes, ligação a encomendas.      |
+| Arquivo Digital           | Repositório de ficheiros com metadados, permissões e pré-visualização.   |
+| Calendário                | Ações e eventos (reuniões, tarefas, follow-ups) com tipos configuráveis. |
+| Utilizadores e Permissões | Gestão de utilizadores, papéis (roles) e permissões granulares.          |
+| Definições                | Países, IVA, artigos, funções de contacto, tipos de calendário, logs.    |
 
 ---
 

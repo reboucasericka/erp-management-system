@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $this->call(ContactFunctionSeeder::class);
+        $this->call(DemoDataSeeder::class);
         $this->call(AccessSeeder::class);
         $this->call(CleanupViewPermissionsSeeder::class);
         $this->call(RolePermissionSeeder::class);
